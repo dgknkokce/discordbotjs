@@ -12,7 +12,7 @@ module.exports = {
 
         try{
 
-            const data = fs.readFileSync('/home/dodo/Desktop/Projects/KeplerBot/cursedLinks.txt', 'utf8')
+            const data = fs.readFileSync('/cursedLinks.txt', 'utf8')
 
             const lines = data.split(/\r?\n/);
             lines.forEach((line) => {
